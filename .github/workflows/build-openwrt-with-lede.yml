@@ -17,11 +17,11 @@ on:
       openwrt_board:
         description: "Select device board"
         required: false
-        default: "s905x3_s905d_s912_beikeyun"
+        default: "s905x3_s905d_s912_beikeyun_vplus"
         type: choice
         options:
           - all
-          - s905x3_s905d_s912_beikeyun
+          - s905x3_s905d_s912_beikeyun_vplus
           - r66s_r68s_h66k_h68k_e25_nanopi-r5s
           - eaidk-610_king3399_tn3399_kylin3399
           - vplus_tqc-a01_tanix-tx6
